@@ -10,34 +10,38 @@
 <body>
     <header>
         <nav>
-            <li title="Home">
-                <a href="index.html">Home</a>
-            </li>
-            <li title="About">
-                <a href="#about">About</a>
-            </li>
-            <li title="Gallery">
-                <a href="gallery.html">Gallery</a>
-            </li>
-            <li title="Help">
-                <a href="https://www.w3.org/" target="_blank">Help</a>
-            </li>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://www.w3.org/" target="_blank">Help</a>
+                </li>
+            </ul>
         </nav>
-        </li>
-
     </header>
 
-    <div >
-        <picture id="picture">
-            <source media="(max-width: 1024px)" srcset="img/pic3.jpg">
-            <source media="(max-width:780px )" srcset="img/pic2.jpg">
-            <source media="(max-width: 480px)" srcset="img/pic1.jpg">
-            <img src="img/pic4.jpg" alt="Beauty of Nature">
-        </picture>
-    </div>
-
-
     <main>
+        <div>
+            <picture id="picture">
+                <source media="(max-width: 480px)" srcset="img/pic1.jpg">
+                <source media="(max-width:780px )" srcset="img/pic2.jpg">
+                <source media="(max-width: 1024px)" srcset="img/pic3.jpg">
+                <img src="img/pic4.jpg" alt="Beauty of Nature"> 
+            </picture>
+        </div>
         <section>
             <h1>Heading 1</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi magna ipsum, dignissim in nisl a,
