@@ -10,20 +10,32 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="@about">About</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="https://www.w3.org/" target="_blank">Help</a>
+            <li title="Home">
+                <a href="index.html">Home</a>
+            </li>
+            <li title="About">
+                <a href="#about">About</a>
+            </li>
+            <li title="Gallery">
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li title="Help">
+                <a href="https://www.w3.org/" target="_blank">Help</a>
+            </li>
         </nav>
+        </li>
+
     </header>
-    <picture>
-        <div id="picture">
-            <source media="(min-width: 1024)" srcset="img/pic3.jpg">
-            <source media="(min-width:780 )" srcset="img/pic2.jpg">
-            <source media="(min-width: 480)" srcset="img/pic1.jpg">
+
+    <div >
+        <picture id="picture">
+            <source media="(max-width: 1024px)" srcset="img/pic3.jpg">
+            <source media="(max-width:780px )" srcset="img/pic2.jpg">
+            <source media="(max-width: 480px)" srcset="img/pic1.jpg">
             <img src="img/pic4.jpg" alt="Beauty of Nature">
-        </div>
-    </picture>
+        </picture>
+    </div>
+
 
     <main>
         <section>
